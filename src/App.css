@@ -23,6 +23,10 @@ body{
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-around;
+  padding: .75rem;
+  word-wrap: break-word;
+  word-break: break-all;
+
 
 }
 .currentOperand{
@@ -30,4 +34,19 @@ body{
 }
 .previousOperand{
   font-size: 1.5rem;
+}
+
+.calculatorGrid>button{
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid wheat;
+  outline: none;
+  background-color: aqua;
+  margin:5px;
+  border-radius: 10px;
+}
+
+.calculatorGrid>button:hover,
+.calculatorGrid>button:focus{
+  background-color: brown;
 }
